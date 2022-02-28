@@ -1,3 +1,5 @@
 # Resume-using-Latex
 ### _RESUME TEMPLATE_
-![res](https://user-images.githubusercontent.com/89581143/156033529-1c780ade-b24f-45bc-8990-223c5c61e8eb.png)
+![ress](https://user-images.githubusercontent.com/89581143/156033876-9df95108-8eb1-4796-8db2-6e0b8d9071a1.png)
+
+
