@@ -1,0 +1,198 @@
+\documentclass[%singlesided,
+               doublesided,
+               paper=a4,
+               fontsize=11pt
+              ]{my-resume}
+\usepackage{xcolor}
+\usepackage{amssymb}
+\usepackage{scalerel}
+\usepackage{stackengine}
+\newcounter{iloop}
+\newcommand\openbigstar[1][0.7]{%
+  \scalerel*{%
+    \stackinset{c}{-.125pt}{c}{}{\scalebox{#1}{\color{white}{$\bigstar$}}}{%
+      $\bigstar$}%
+  }{\bigstar}
+}
+\newcommand{\Stars}[1]{\ensuremath{\setcounter{iloop}{0}%
+\loop\stepcounter{iloop}\ifnum\value{iloop}<#1
+\bigstar\repeat
+\openbigstar[0.5]
+\setcounter{iloop}{0}%
+\loop\stepcounter{iloop}\ifnum\value{iloop}<\the\numexpr6-#1\relax
+\openbigstar[.9]\repeat}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% set geometry
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setlength\highlightwidth{8cm}
+\setlength\headerheight{4cm}            % note that margintop gets added to this value, i.e. the header bar is 5cm
+\setlength\marginleft{1cm}
+\setlength\marginright{\marginleft}      % needs to be 1.5 times to be actually equal. why?
+\setlength\margintop{3cm}
+\setlength\marginbottom{1cm}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% FONTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\RequirePackage{fontspec}
+\setmainfont{Carlito}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% COLORS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\colorlet{highlightbarcolor}{lightgray}
+\colorlet{headerbarcolor}{darkgray}
+
+\colorlet{headerfontcolor}{white}
+\colorlet{accent}{awesome-red}
+\colorlet{heading}{lightblue}
+\colorlet{emphasis}{black}
+\colorlet{body}{black}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% set document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\name{Karthik reddy Veluru}
+\tagline{Data science Aspirant | Competitive Coder | Web Developer}
+\photo[round]{img-01.jpg}{\dimexpr \headerheight-\marginbottom}   % make photo exactly match the header with margintop/marginright/marginbottom as margin
+
+\makeheader
+
+\highlightbar{
+
+    \section{Contact}
+    
+    \email{karthikveluru777@gmail.com}
+    \phone{+91 9392854425}
+    \location{Nellore,Andhra Pradesh}
+    \vspace{0.5em}
+     \github{@2000090063}{https://github.com/2000090063}
+    \linkedin{Karthik Reddy veluru}{https://www.linkedin.com/in/karthik-reddy-veluru-86ab52201/}
+   
+    
+    \section{Skills}
+    
+    \skillsection{Programming}
+    \skill{C++}{5}
+    \skill{Python}{4}
+    \skill{java}{3}
+     \skill{LaTeX}{4}
+      \vspace{0.5em}
+     \skillsection{web development Frameworks}
+    \skill{HTML5}{5}
+    \skill{CSS3}{4}
+    \skill{Django}{4}
+    \skill{flask}{3}
+    
+    \vspace{0.5em}
+    \skillsection{Tools and Technologies}
+    \skill{Git}{4}
+    \skill{Github}{5}
+      \vspace{0.5em}
+    \skillsection{Databases}
+    \skill{My Sql}{4}
+    \skill{MongoDB}{4}
+    
+    
+    \vspace{0.5em}
+    \skillsection{Software \& Tools}
+    \skill{Data Visualisation}{4}
+    (e.g. matplotlib, gnuplot, ...)\\
+    \skill{Data analysis}{4}
+    (e.g. numpy, scipy, pandas, ...)\\
+    
+    \vspace{0.5em}
+    \skillsection{Languages}
+    \skill{English}{4}
+    \skill{Hindi}{3}
+    \skill{Telugu}{4}
+    \bigskip
+    
+    \section{Hacker rank badges}
+    \simpleskill{Problem solving  :\color{awesome-red}\Stars{5}}
+   
+    \simpleskill{C plus plus(c++) :\color{awesome-red}\Stars{5}}
+    \simpleskill{C programming   : \color{awesome-red} \Stars{4}}
+
+}
+\mainbar{
+    \section{About me}
+   I am a 2nd year undergrad at KL university pursuing B. Tech in Computer Science and Information Technology(CS &IT).I am very much interested in Data science ,Web Development and Competitive Programming. I am good at problem solving.I always looks to improve my existing skills and to learn new skills.
+\begin{itemize}
+\end{itemize}
+
+
+
+   
+    
+    \section[\faMortarBoard]{Education}
+    \job{08/2020 - 05/2024}
+        {KL University,vijayawada}
+        {B.TECH-CGPA : 9.0}
+    
+    \job{06/2018 - 05/2020}
+        {Narayana Jr.Collage,Nellore}
+        {INTERMEDIATE-CGPA : 9.8}
+    
+      \job{06/2017 - 05/2018}
+        {Krishna chaithanya school,Naidupeta}
+        {SSC-CGPA : 9.8}
+        
+
+   \section{\color{blue}competitive Coding Profiles}
+  
+\begin{itemize}
+\item \href{https://www.codechef.com/users/el_2000090063}{Codechef}
+\item \href{https://auth.geeksforgeeks.org/user/karthikveluru777/practice/}{Geeks For Geeks}
+\item \href{https://www.hackerrank.com/2000090063KR}{Hacker rank}
+\item \href{https://leetcode.com/2000090063/}{Leetcode}
+
+\end{itemize}
+     
+     \section{Certifications}
+    \achievement{Oracle cloud Certified Associate}
+    \achievement{Courseera : Operating systems and You}
+    \achievement{Courseera : Relational Data bases}
+    \achievement{Cisco : programming essentials in python}
+    
+       \section{Global Contest Participation}
+    \achievement{Google Kickstart 2021 Round A}
+    \achievement{Codechef Snackdown Round 1-B}
+ 
+ \section{ Portfolio Web page}
+  \github{My portfolio web page using HTML,CSS and JS }{https://github.com/2000090063/My-Portfolio.git}
+ 
+ \section{General Skills}
+    \smallskip % additional skip because tag outlines use up space
+    \tag{Problem solving}
+    \tag{Communication skills}
+    \tag{Team Building}
+    \tag{Teaching programming}
+    \tag{Decision making}
+      \tag{Analytical thinking}
+    
+
+    
+}
+\makebody
+\clearpage
+
+
+\pagestyle{highlightmain}
+
+% The highlightbar needs to be filled to display mainbar contents correctly in singlesised mode
+% For an empty highlightbar, fill with empty space
+\highlightbar{\hfill}
+
+\end{document}
