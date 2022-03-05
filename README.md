@@ -1,6 +1,7 @@
 # Resume-using-Latex
 ### _RESUME TEMPLATE_
-![RSD](https://user-images.githubusercontent.com/89581143/156118714-b65ee487-7a0f-4f82-b9da-46211d26fc56.png)
+![xx](https://user-images.githubusercontent.com/89581143/156885115-56b65002-1f33-490a-ba9b-600e956df492.jpg)
+
 ### CREATE RESUME USING FOLLOWING WEBSITES FOR FREE:
 
 - [https://www.overleaf.com/](url)
@@ -9,5 +10,4 @@
 - [https://www.resume.com/](url)
 - [https://resumebuild.com/](url)
 - [https://resumegenius.com/](url)
-
 
