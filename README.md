@@ -1,6 +1,6 @@
-# Resume-using-Latex
 ### _RESUME TEMPLATE_
-![xx](https://user-images.githubusercontent.com/89581143/156885115-56b65002-1f33-490a-ba9b-600e956df492.jpg)
+![rs](https://user-images.githubusercontent.com/89581143/174081944-b5a1d124-4004-4e8e-b290-039f79981825.jpg)
+
 
 ### CREATE RESUME USING FOLLOWING WEBSITES FOR FREE:
 
