@@ -1,5 +1,5 @@
 ### _RESUME TEMPLATE_
-![rs](https://user-images.githubusercontent.com/89581143/174081944-b5a1d124-4004-4e8e-b290-039f79981825.jpg)
+
 
 
 ### CREATE RESUME USING FOLLOWING WEBSITES FOR FREE:
